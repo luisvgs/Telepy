@@ -1,7 +1,7 @@
 import socket, threading, json
 s = socket.socket()
 host = "localhost"
-port = 8000
+port = 5000
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1)
 s.bind((host,port))
 s.listen(5)
